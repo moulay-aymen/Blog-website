@@ -39,7 +39,6 @@ export default function CommentSection({ articleSlug }) {
         <MessageSquare size={20} /> Commentaires ({comments.length})
       </h4>
 
-      {/* Formulaire d'ajout */}
       <form onSubmit={handleSubmit} className="glass-card p-4 mb-4 border-0">
         <div className="mb-3">
           <label className="form-label small fw-semibold" style={{ color: 'var(--text-primary)' }}>Votre nom</label>
@@ -68,7 +67,6 @@ export default function CommentSection({ articleSlug }) {
         </button>
       </form>
 
-      {/* Liste des commentaires */}
       <div className="d-flex flex-column gap-3">
         {comments.map((c) => (
           <div key={c.id} className="p-3 rounded-3 glass-card border-0" style={{ background: 'var(--bg-secondary)' }}>
