@@ -7,14 +7,14 @@ import SearchAndFilter from './components/SearchAndFilter';
 import CommentSection from './components/CommentSection';
 import { Calendar, Clock, ArrowLeft, ArrowRight } from 'lucide-react';
 
-// Fonction utilitaire pour calculer le temps de lecture
+
 const calculateReadTime = (text) => {
   const wordsPerMinute = 200;
   const wordCount = text ? text.split(/\s+/).length : 0;
   return Math.max(1, Math.ceil(wordCount / wordsPerMinute));
 };
 
-// Composant Page d'Accueil
+
 function Home({ articles }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('Tous');
@@ -60,7 +60,7 @@ function Home({ articles }) {
   );
 }
 
-// Composant Page Détail Article
+
 function ArticleDetail({ articles }) {
   const { slug } = useParams();
   const navigate = useNavigate();
@@ -131,7 +131,7 @@ function ArticleDetail({ articles }) {
           {article.content}
         </div>
 
-        {/* Navigation Précédent / Suivant */}
+  
         <div className="d-flex justify-content-between align-items-center py-4 border-top border-bottom my-5" style={{ borderColor: 'var(--border-color)' }}>
           {prevArticle ? (
             <Link to={`/article/${prevArticle.slug}`} className="btn btn-sm btn-outline-secondary d-flex align-items-center gap-2 text-decoration-none border-0" style={{ color: 'var(--text-primary)' }}>
@@ -152,7 +152,7 @@ function ArticleDetail({ articles }) {
   );
 }
 
-// Application Principale
+
 export default function App() {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
