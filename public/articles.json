@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "L'essor du Design System en 2026 : Au-delà des composants",
+    "slug": "essor-design-system-2026",
+    "excerpt": "Découvrez comment les équipes front-end intègrent l'IA et les tokens dynamiques pour révolutionner la conception d'interfaces.",
+    "content": "Les design systems ont évolué de simples bibliothèques de composants Figma à de véritables écosystèmes vivants connectés directement au code. En 2026, l'intégration des tokens dynamiques propulsés par l'intelligence artificielle permet une cohérence visuelle instantanée entre le design et la production. Les équipes front-end gagnent un temps précieux, réduisant la dette technique et se concentrant sur l'expérience utilisateur pure. Cette transition marque la fin des refontes globales massives au profit d'itérations fluides et continues.",
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+    "date": "24 Fév 2026",
+    "category": "Design System",
+    "author": "Thomas Leroy"
+  },
+  {
+    "id": 2,
+    "title": "Pourquoi React 19 change radicalement notre façon de coder",
+    "slug": "pourquoi-react-19-change-tout",
+    "excerpt": "Actions, Server Components, et hooks natifs optimisés : faisons le tour des nouveautés indispensables pour tout développeur.",
+    "content": "React 19 introduit des paradigmes majeurs qui simplifient la gestion des états et des formulaires asynchrones. Grâce aux Server Components et aux nouvelles fonctions d'actions, le besoin de bibliothèques tierces complexes diminue fortement. Le code devient plus lisible, les performances s'envolent dès le premier chargement, et l'expérience développeur atteint un nouveau sommet. C'est le moment idéal pour mettre à jour vos architectures front-end.",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&w=1200&q=80",
+    "date": "20 Fév 2026",
+    "category": "React",
+    "author": "Sarah Benali"
+  },
+  {
+    "id": 3,
+    "title": "Maîtriser le CSS Moderne : Grid, Subgrid et Container Queries",
+    "slug": "maitriser-css-moderne-2026",
+    "excerpt": "Libérez tout le potentiel des mises en page fluides et adaptatives sans surcharger votre code avec JavaScript.",
+    "content": "Le CSS moderne offre des fonctionnalités autrefois impensables sans scripts lourds. Les Container Queries permettent enfin de styliser un composant selon son propre contexte d'affichage et non plus selon la taille de la fenêtre globale. Combinées à CSS Subgrid, les grilles complexes s'alignent parfaitement sur plusieurs niveaux sans calculs complexes. Un must-know absolu pour tout intégrateur moderne.",
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+    "date": "15 Fév 2026",
+    "category": "CSS",
+    "author": "Marc Vilar"
+  },
+  {
+    "id": 4,
+    "title": "L'Accessibilité Web (a11y) : Ce n'est plus une option",
+    "slug": "accessibilite-web-obligation",
+    "excerpt": "Rendre vos applications inclusives améliore le SEO, l'expérience globale et répond aux nouvelles normes strictes.",
+    "content": "L'accessibilité ne se limite pas à ajouter quelques attributs ARIA en fin de projet. Elle doit être pensée dès la phase de wireframing. Des contrastes de couleurs rigoureux, une navigation clavier irréprochable et des balises sémantiques précises garantissent que chaque utilisateur, indépendamment de ses capacités, peut naviguer confortablement sur votre plateforme.",
+    "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1200&q=80",
+    "date": "10 Fév 2026",
+    "category": "UX/UI",
+    "author": "Chloé Moreau"
+  },
+  {
+    "id": 5,
+    "title": "Optimiser les performances Web pour un score Lighthouse à 100",
+    "slug": "optimiser-performances-lighthouse",
+    "excerpt": "Compression d'images, lazy loading intelligent et code splitting : les secrets d'un site ultra-rapide.",
+    "content": "La vitesse de chargement est le premier facteur de conversion et de satisfaction utilisateur. En optimisant vos ressources statiques, en tirant parti des formats d'images nouvelle génération et en évitant les scripts bloquants, vous offrez une navigation instantanée. Même sur mobile en réseau 4G, votre application doit s'afficher en moins d'une seconde.",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=80",
+    "date": "02 Fév 2026",
+    "category": "Performance",
+    "author": "Thomas Leroy"
+  },
+  {
+    "id": 6,
+    "title": "TypeScript Avancé : Astuces pour des composants ultra-sécurisés",
+    "slug": "typescript-avance-composants",
+    "excerpt": "Utilisez les types conditionnels et les génériques pour typer proprement vos props complexes.",
+    "content": "TypeScript est devenu la norme incontournable dans l'écosystème React. Cependant, s'arrêter aux types basiques bride souvent la puissance du langage. En maîtrisant les types conditionnels, les templates literal types et les génériques avancés, vous créez des composants robustes qui guident parfaitement les autres développeurs de votre équipe.",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1200&q=80",
+    "date": "28 Jan 2026",
+    "category": "TypeScript",
+    "author": "Sarah Benali"
+  },
+  {
+    "id": 7,
+    "title": "Animation d'interfaces : Quand le mouvement renforce l'UX",
+    "slug": "animation-interfaces-ux",
+    "excerpt": "Comment guider l'œil de l'utilisateur et fluidifier la navigation grâce à des micro-interactions bien pensées.",
+    "content": "Une animation réussie ne doit jamais être gratuite ou tape-à-l'œil. Elle sert de repère visuel, confirme une action (comme l'ajout au panier ou l'envoi d'un formulaire) et donne du relief à l'interface. Grâce aux transitions CSS modernes et à des bibliothèques légères, dynamiser son site n'a jamais été aussi simple ni aussi performant.",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+    "date": "22 Jan 2026",
+    "category": "UX/UI",
+    "author": "Chloé Moreau"
+  },
+  {
+    "id": 8,
+    "title": "Architecture Front-End : Structurer une grande application React",
+    "slug": "architecture-frontend-react",
+    "excerpt": "Dossiers par fonctionnalités, séparation des responsabilités et scalabilité sur le long terme.",
+    "content": "Quand une application React grandit, structurer son code devient un défi stratégique. Abandonner l'organisation purement technique (tout mettre dans des dossiers 'components' ou 'hooks') au profit d'une architecture orientée fonctionnalités (Feature-driven) permet de garder une base de code maintenable, testable et claire pour l'ensemble des collaborateurs.",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
+    "date": "14 Jan 2026",
+    "category": "React",
+    "author": "Marc Vilar"
+  }
+]
