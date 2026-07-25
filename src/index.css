@@ -28,7 +28,6 @@ h1, h2, h3, h4, h5, h6, .brand-font {
   font-family: 'Outfit', sans-serif;
 }
 
-/* Glassmorphism Navbar & Elements */
 .glass-nav {
   background: var(--glass-bg);
   backdrop-filter: blur(12px);
@@ -52,7 +51,6 @@ h1, h2, h3, h4, h5, h6, .brand-font {
   border-color: var(--accent);
 }
 
-/* Hero Section */
 .hero-section {
   position: relative;
   padding: 5rem 0 3rem;
@@ -60,7 +58,6 @@ h1, h2, h3, h4, h5, h6, .brand-font {
               radial-gradient(circle at 90% 80%, rgba(168, 85, 247, 0.06) 0%, transparent 40%);
 }
 
-/* Custom Search & Filter */
 .search-input {
   background: var(--bg-secondary) !important;
   color: var(--text-primary) !important;
@@ -98,7 +95,6 @@ h1, h2, h3, h4, h5, h6, .brand-font {
   transform: translateY(-2px);
 }
 
-/* Reading Progress Bar */
 .reading-progress {
   position: fixed;
   top: 0;
@@ -109,7 +105,6 @@ h1, h2, h3, h4, h5, h6, .brand-font {
   transition: width 0.1s linear;
 }
 
-/* Buttons */
 .btn-accent {
   background-color: var(--accent);
   color: #090d16;
